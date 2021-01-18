@@ -1,0 +1,95 @@
+/*to ref an id #*/
+#nameHeading{
+	text-align: center;
+	color: #fff;
+}
+/*to ref a tag call tag name*/
+hr{
+	margin-right: 26px;
+	margin-left: 26px;
+}
+/*to ref using a class use the . */
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 200px;
+}
+
+.table{
+	margin: auto;
+}
+
+#see{
+	background-color: blue;
+	font-family: cursive;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+body{
+	background-color: black;
+/*	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;*/
+}
+blockquote{
+	color: #fff;
+}
+
+p{
+	text-align: center;
+	color: #fff;
+}
+
+a{
+	color:  #fff;
+}
+
+th{
+	color: #fff;
+	text-align: center;
+}
+
+td{
+	color: #fff;
+	text-align: start;
+	padding: 20px;
+}
+
+#edit{
+	background-color: blue;
+	color: #fff;
+}
+
+#delete{
+	background-color: red;
+	color: #fff;
+}
+
+ul{
+	color: #fff;
+    text-align: center;
+}
+
+ol{
+	color: #fff;
+    text-align: center;
+}
+
+
+iframe{
+   margin: auto;
+}
+
+/*media query*/
+
+
+@media screen and (max-width: 800px;){
+
+
+/*write css*/
+
+}

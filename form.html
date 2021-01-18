@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		 <link rel="stylesheet" type="text/css" href="css/form.css">
+	<title>
+		Form
+	</title>
+</head>
+<body style="background-color: #000; color: #fff">
+
+	<!-- to write a form -->
+	<form  action="personal.php" method="post"> 
+		<fieldset>
+			<legend>Personal Summary</legend>
+			<input id="name" type="password" name="name" placeholder="Enter Name"> 
+			<input type="file">
+		<label for="age">Enter Age</label>
+        <select id="age" name="age">
+        	<option value="25">25</option>
+        	<option value="26">26</option>
+        	<option value="27">27</option>
+        </select>
+        <label>Enter Bio</label>
+        <textarea  cols="200" rows="10" name="bio" id="bio"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Work Information</legend>
+			<!-- for data list -->
+            <input list="work">
+            <datalist>
+            	<option value="Software Dev">Software Dev</option>
+            	<option value="Teacher">Teacher</option>
+            	<option value="Dancer">Dancer</option>
+            </datalist>
+		</fieldset>
+		
+		<input type="submit" name="save" value="Submit Data" style="background-color: blue; color: #fff;">
+		<input type="reset" name="reset" value="Reset Form" style="background-color: red; color: #fff;">
+        
+	</form>
+
+</body>
+</html>
